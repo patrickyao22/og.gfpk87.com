@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8"> 
+    <title>Online game俄罗斯方块</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap/3.2.0/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>俄罗斯方块</h1>
+      <h2>键位</h2>
+          
+      <div class="table-responsive">          
+       <table class="table table-striped table-bordered">
+         <thead>
+           <tr>
+             <th>#</th>
+             <th>按键</th>
+             <th>动作</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>1</td>
+             <td>W</td>
+             <td>Turn round</td>
+           </tr>
+           <tr>
+             <td>2</td>
+             <td>A/D</td>
+             <td>Left or right</td>
+           </tr>
+           <tr>
+             <td>3</td>
+             <td>S</td>
+             <td>Move down</td>
+           </tr>
+           <tr>
+             <td>4</td>
+             <td>Space</td>
+             <td>Quick down</td>
+           </tr>
+
+
+         </tbody>
+       </table>
+      </div>
+	    <button onclick="round()">W</button>
+        <button onclick="moveLeft()">A</button>
+        <button onclick="moveRight()">D</button>
+        <button onclick="moveDown()">S</button>
+        <button onclick="quickDown()">Space</button><br>
+
+
+      <canvas width="400" height="600" id="tetris"></canvas>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="game.js"></script>
+    <script src="https://apps.bdimg.com/libs/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
