@@ -1,0 +1,36 @@
+body {
+    background-color: #FFFFFF;
+}
+
+div welcome {
+    background-color: #2f8cc9;
+}
+
+h2 welcome {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+p warning {
+    color: #f1a24d;
+    text-align: center;
+}
+
+ul oglist {
+    text-align: center;
+}
+
+a inlist {
+    text-align: center;
+    color: #5048db;
+}
+
+p inlist {
+    text-align: center;
+    color: #5048db;
+}
+
+span tail {
+    text-align: center;
+    color: #736d6d;
+}
