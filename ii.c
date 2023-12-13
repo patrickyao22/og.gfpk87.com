@@ -23,7 +23,7 @@
             text-align: center;
         }
         
-        a.inlist {
+        a {
             color: #5048db;
             text-align: center;
         }
