@@ -4,7 +4,7 @@
 	<title>贪吃蛇</title>
 	<meta charset="UTF-8">
 	<meta name="keywords" content="贪吃蛇">
-	<meta name="Description" content="这是一个初学者用来学习的小游戏">
+	<meta name="Description" content="Snake">
 	<style type="text/css">
 	*{margin:0;}
 	.map{margin:100px auto;
@@ -21,6 +21,11 @@
 </head>
  
 <body>
+<button onclick="togo=2">Snake Up</button>
+<button onclick="togo=3">Snake Down</button>
+<button onclick="togo=1">Snake Left</button>
+<button onclick="togo=4">Snake Right</button>
+
 <div class="map">
 <canvas id="canvas" height="600" width="900">
 	
@@ -122,6 +127,7 @@
     		
    function move()
    {
+	
 	switch (togo)
 	{
 	case 1: snake.push({x:snake[snakeCount-1].x-15,y:snake[snakeCount-1].y}); break;//向左走
