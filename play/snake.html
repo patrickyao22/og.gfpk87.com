@@ -173,8 +173,9 @@
    {
     if (snake[snakeCount-1].x>885||snake[snakeCount-1].y>585||snake[snakeCount-1].x<0||snake[snakeCount-1].y<0)
 		{
-		alert("You are dead,GAME OVER!!!");
-		window.location.reload();
+		alert("You are dead,GAME OVER!!!")；
+			// 跳转到指定的 URL 地址
+                location.assign("about:blank");
 		}
    }
    
